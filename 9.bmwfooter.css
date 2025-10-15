@@ -1,0 +1,238 @@
+.bmwFooter {}
+
+.footerContainer {
+    width: auto;
+}
+
+.footerBody {
+    background: #111;
+
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 8% 30px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+    margin: 0 auto;
+}
+
+.footerBlock {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: #00FFFF; */
+
+
+}
+
+.footerBox {
+    flex: 1 1 220px;
+    min-width: 200px;
+}
+
+.footerBox h3 {
+    color: #0071c2;
+    /* BMW blue accent */
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.footerBox p {
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+
+
+.footerBlockone {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    flex-direction: row;
+
+    /* background-color: #1E90FF; */
+}
+
+.footerBoxone {
+    /* flex: 1 220px; */
+    /* min-width: 200px */
+}
+
+.footerBoxone h3 {
+    color: #0071c2;
+    /* BMW blue accent */
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.footerBoxone ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerBoxone ul li {
+    margin-bottom: 10px;
+}
+
+.footerBoxone ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.footerBoxone ul li:hover {
+    color: #0071c2;
+}
+
+
+
+.footerBlocktwo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footerBoxtwo {
+    flex: 1 1 220px;
+    min-width: 200px
+}
+
+.footerBoxtwo h3 {
+    color: #0071c2;
+    /* BMW blue accent */
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.footerBoxtwo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerBoxtwo ul li {
+    margin-bottom: 10px;
+}
+
+.footerBoxtwo ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.footerBoxtwo ul li:hover {
+    color: #0071c2;
+}
+
+
+
+.footerBlockthree {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    flex-direction: row;
+    /* background-color: #00FFFF; */
+}
+
+.footerBoxthree {
+    flex: 1 1 220px;
+    min-width: 200px
+}
+
+.footerBoxthree h3 {
+    color: #0071c2;
+    /* BMW blue accent */
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.footerBoxthree ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerBoxthree ul li {
+    margin-bottom: 10px;
+}
+
+.footerBoxthree ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.footerBoxthree ul li:hover {
+    color: #0071c2;
+}
+
+
+.socialIcons {
+    margin-bottom: 15px;
+}
+
+.socialIcons a {
+    margin: 0 8px;
+    font-size: 20px;
+    color: white;
+    transition: transform 0.3 ease, color 0.3s ease;
+}
+
+
+.socialIcons a:hover {
+    color: #0071c2;
+}
+
+
+
+
+.subscribeForm {
+    display: flex;
+    margin-top: 5px;
+}
+
+.subscribeForm input {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.subscribeForm button {
+    /* padding: 8px 16px; */
+    border: none;
+    background: #0071c2;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.subscribeForm button:hover {
+    background: #005a99;
+}
+
+
+
+
+.footerBottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+}

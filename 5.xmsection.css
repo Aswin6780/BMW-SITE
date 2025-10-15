@@ -1,0 +1,64 @@
+.xmSection {
+    /* background-color: #000; */
+}
+
+.xmContainer {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    /* adjust height */
+    background-image: url(./assets/images/xm\ oneside.png);
+    /* your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem 50px;
+    color: #fff;
+}
+
+.xmBody {}
+
+.xmBlock {}
+
+.xmBox {
+    max-width: 40%;
+    background: rgba(0, 0, 0, 0.5);
+    /* semi-transparent background for readability */
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+.xmBox h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00CED1;
+}
+
+
+.xmBox p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.xmBox button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1E90FF;
+    /* electric blue button */
+    font-family: "Cuprum", sans-serif;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.xmBox button:hover {
+    background-color: #FFD700;
+    /* gold hover effect */
+    color: #000;
+}

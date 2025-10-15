@@ -1,0 +1,69 @@
+.navBar {
+    /* max-width: 1500px; */
+    margin: auto;
+    padding: 2rem 2rem;
+    background-color: black;
+}
+
+.navContainer {}
+
+.navBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navBlock {}
+
+.navBox {}
+
+.navBox a {}
+
+.navBox figure {}
+
+.navBox figure img {
+    width: auto;
+    height: 4rem;
+    margin-left: 2rem;
+}
+
+
+.navlinkBlock {}
+
+.navlinkBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    /* background-color: aqua; */
+    gap: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-between;
+
+}
+
+.navlinkBox ul {
+    text-decoration: none;
+}
+
+.navlinkBox ul li {
+    text-decoration: none;
+}
+
+.navlinkBox ul li a {
+    text-decoration: none;
+    color: beige;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+
+.navlinkBox ul li a:hover {
+    color: #1E90FF;
+}

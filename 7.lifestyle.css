@@ -1,0 +1,74 @@
+.lifeStyle {
+    /* background-color: #000000; */
+}
+
+.lifeContainer {
+    background-color: #d1d1d1;
+}
+
+.lifeBody {
+    padding: 40px 8%;
+    /* background: #000000; */
+    text-align: center;
+}
+
+.lifeBlock {}
+
+.lifeBox {
+
+    /* margin-bottom: 40px; */
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.lifeBox h2 {
+    font-size: 2.5rem;
+    /* background-color: #000000; */
+    color: rgb(0, 0, 0);
+}
+
+
+.lifeBodyone {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.lifeBlockone {
+    background: #f4f6f8;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lifeBoxone {}
+
+.lifeBoxone figure {}
+
+.lifeBoxone figure img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.lifeBoxone h3 {
+    font-size: 1.2rem;
+    margin: 12px 0 8px;
+    color: #0071c2;
+    margin-left: 10px;
+}
+
+.lifeBoxone p {
+    font-size: 0.9rem;
+    padding: 0 12px 15px;
+    color: #555;
+    min-height: 50px;
+}
+
+
+.lifeBoxone:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+}

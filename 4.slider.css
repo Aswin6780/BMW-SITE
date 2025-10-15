@@ -1,0 +1,102 @@
+.slider {
+    background-color: #a59c9c;
+}
+
+.sliderContainer {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.sliderBody {
+    max-width: 90%;
+    /* height: 100%; */
+    /* adjust width */
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.sliderBlock {}
+
+.image-slider {
+    max-width: 1000px;
+    /* adjust width */
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Slides Wrapper */
+.slides {
+    display: flex;
+    width: 500%;
+    /* 5 images */
+    animation: slide 15s infinite;
+    /* total duration for smooth slide */
+}
+
+/* Each Image */
+.slides img {
+    width: 20%;
+    /* 100% / 5 images */
+    transition: transform 0.3s ease;
+}
+
+/* Slide Animation */
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    15% {
+        transform: translateX(0%);
+    }
+
+    /* pause on first image */
+    20% {
+        transform: translateX(-20%);
+    }
+
+    35% {
+        transform: translateX(-20%);
+    }
+
+    /* pause on second image */
+    40% {
+        transform: translateX(-40%);
+    }
+
+    55% {
+        transform: translateX(-40%);
+    }
+
+    /* pause on third image */
+    60% {
+        transform: translateX(-60%);
+    }
+
+    75% {
+        transform: translateX(-60%);
+    }
+
+    /* pause on fourth image */
+    80% {
+        transform: translateX(-80%);
+    }
+
+    95% {
+        transform: translateX(-80%);
+    }
+
+    /* pause on fifth image */
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Hover Effect on Images */
+.slides img:hover {
+    transform: scale(1.15);
+}

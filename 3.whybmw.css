@@ -1,0 +1,389 @@
+.whyBmw {
+    background-color: #000000;
+    padding: 2rem 0rem;
+}
+
+.whyContainer {
+    margin: auto;
+    width: 80%;
+}
+
+.whyBody {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyBlock {}
+
+.whyBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyBox h2 {
+    font-size: 3rem;
+    color: beige;
+}
+
+.whyBodyone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding: 2rem 0rem;
+    width: 100%;
+}
+
+.whyBlockone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyCard {
+
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 2px solid #1c69d4;
+    text-align: center;
+}
+
+.whyCard figure {}
+
+.whyCard figure img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+
+}
+
+.whyCard h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00FFFF;
+}
+
+.whyCard p {
+    color: whitesmoke;
+}
+
+.whyCard button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1c69d4;
+    /* BMW blue */
+    font-family: "Cuprum", sans-serif;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.whyCard button:hover {
+    background-color: #000;
+    /* black on hover for premium feel */
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+
+
+/* gsfhs */
+.whyBlocktwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyCardone {
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 2px solid #1c69d4;
+    text-align: center;
+}
+
+.whyCardone figure {}
+
+.whyCardone figure img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.whyCardone h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00FFFF;
+}
+
+.whyCardone p {
+    color: whitesmoke;
+}
+
+.whyCardone button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1c69d4;
+    /* BMW blue */
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.whyCardone button:hover {
+    background-color: #000;
+    /* black on hover for premium feel */
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+/* gfshsfh */
+
+.whyBlockthree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyCardtwo {
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 2px solid #1c69d4;
+    text-align: center;
+}
+
+.whyCardtwo figure {}
+
+.whyCardtwo figure img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.whyCardtwo h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00FFFF;
+}
+
+.whyCardtwo p {
+    color: whitesmoke;
+}
+
+
+.whyCardtwo button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1c69d4;
+    /* BMW blue */
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.whyCardtwo button:hover {
+    background-color: #000;
+    /* black on hover for premium feel */
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+
+/* hetje */
+
+.whyBlockfour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyCardthree {
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 2px solid #1c69d4;
+    text-align: center;
+}
+
+.whyCardthree figure {}
+
+.whyCardthree figure img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.whyCardthree h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00FFFF;
+}
+
+.whyCardthree p {
+    color: whitesmoke;
+}
+
+.whyCardthree button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1c69d4;
+    /* BMW blue */
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.whyCardthree button:hover {
+    background-color: #000;
+    /* black on hover for premium feel */
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+
+
+
+/* djdfdjzd */
+
+.whyBlockfive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyCardfour {
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 2px solid #1c69d4;
+    text-align: center;
+}
+
+.whyCardfour figure {}
+
+.whyCardfour figure img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.whyCardfour h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00FFFF;
+}
+
+.whyCardfour p {
+    color: whitesmoke;
+}
+
+.whyCardfour button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1c69d4;
+    /* BMW blue */
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.whyCardfour button:hover {
+    background-color: #000;
+    /* black on hover for premium feel */
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+
+/* sfshss */
+
+
+.whyBlocksix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyCardfive {
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 2px solid #1c69d4;
+    text-align: center;
+}
+
+.whyCardfive figure {}
+
+.whyCardfive figure img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.whyCardfive h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00FFFF;
+}
+
+.whyCardfive p {
+    color: whitesmoke;
+}
+
+.whyCardfive button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1c69d4;
+    /* BMW blue */
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.whyCardfive button:hover {
+    background-color: #000;
+    /* black on hover for premium feel */
+    color: #fff;
+    transform: translateY(-3px);
+}

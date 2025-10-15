@@ -1,0 +1,66 @@
+.awardSection {}
+
+.awardContainer {
+    padding: 60px 8%;
+    background: #d1d1d1;
+    text-align: center;
+}
+
+.awardBody {
+    /* background-color: #ffffff; */
+}
+
+.awardBlock {}
+
+.awardBox {}
+
+.awardBox h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 10px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.awardBox p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.awardBodyone {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    gap: 30px;
+}
+
+.awardBlockone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.awardBoxone {}
+
+.awardIcon {
+    font-size: 3rem;
+    color: #0071c2;
+    margin-bottom: 15px;
+}
+
+.awardBoxone h3 {
+    font-size: 1.2rem;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.awardBoxone p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.awardBoxone:hover {
+    transform: translateY(-6px);
+}

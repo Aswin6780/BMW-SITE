@@ -1,0 +1,55 @@
+.heroSection {
+    background-image: url(./assets/images/hero\ image.jpg);
+    padding: 10rem 0rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.heroContainer {}
+
+.heroBody {}
+
+.heroBlock {
+    width: 50rem;
+}
+
+.heroBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 8rem;
+}
+
+.heroBox h1 {
+    color: beige;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.heroBox h2 {
+    color: bisque;
+    padding: 1rem 0rem;
+}
+
+.heroBox button {
+    padding: 12px 28px;
+    background-color: #000;
+    /* BMW’s luxury black */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    font-family: "Cuprum", sans-serif;
+}
+
+
+.heroBox button:hover {
+    background-color: #7407d3;
+
+    color: #fff;
+}
