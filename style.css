@@ -1310,19 +1310,37 @@
         margin: 0 auto;
     }
 
+         .heroSection {
+             background-image: url('./assets/images/9261417.jpg');
+             /* position: relative; */
+             width: 100%;
+             margin: auto;
+         }
+
     .heroBox h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
+        /* color: #ff0000; */
+        margin-bottom: 5rem;
+        background: linear-gradient(90deg,
+                    rgba(0, 27, 49, 0.95),
+                    /* brighter blue */
+                    rgba(0, 136, 255, 0.9)
+                );
+                
+        
     }
 
     .heroBox h2{
-        font-size: 1.5rem;
-        /* padding-bottom: 5rem; */
+        font-size: 1rem;
+        display: none;
+        color: #00FFFF;
+       
     }
     
 
     .heroBox button {
-        margin-top: 1rem;
-        /* padding-bottom: 4rem; */
+        margin-top: 5rem;
+        /* padding-top: 4rem; */
     }
     /* Why BMW Section */
     .whyBody, .whyBodyone {
