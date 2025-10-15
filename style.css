@@ -779,6 +779,7 @@
      gap: 25px;
 
 
+
  }
 
  .modelBlockone {
@@ -795,6 +796,7 @@
      border-radius: 15px;
      overflow: hidden;
      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+     border: 1px solid rgb(255, 255, 255);
      transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
 
@@ -890,7 +892,9 @@
      transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
 
- .lifeBoxone {}
+ .lifeBoxone {
+    border: 1px solid rgb(255, 255, 255);
+ }
 
  .lifeBoxone figure {}
 
@@ -926,7 +930,9 @@
  }
 
  .awardContainer {
-     /* padding: 60px 8%; */
+     padding: 40px 8%;
+     /* margin-top: 1rem; */
+
      background: #1E1E1E;
      text-align: center;
  }
@@ -1474,7 +1480,7 @@
     /* Awards Section */
 
      .awardBox h2{
-        margin-top: 1rem;
+        padding: 10px 1%;
       }
     .awardBodyone {
         display: grid;
