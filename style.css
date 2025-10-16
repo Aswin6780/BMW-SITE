@@ -792,13 +792,15 @@
  }
 
  .modelBoxone {
-     background: #f4f6f8;
-     border-radius: 15px;
-     overflow: hidden;
-     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
-     border: 1px solid rgb(255, 255, 255);
-     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   background-color: #ffffff;
+        border: 1px solid #2f2f2f;
+        color: #e0e0e0;
+      
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
+
+
+
 
 
  .modelBoxone img {
@@ -810,8 +812,9 @@
  .modelBoxone h3 {
      font-size: 1.5rem;
      margin: 12px 0 8px;
-     color: #0071c2;
+     color: #0066cc;
      text-align: center;
+    background: linear-gradient(90deg, #ffffff, #d6d6d6);
  }
 
 
@@ -840,7 +843,7 @@
  }
 
  .modelBoxone button:hover {
-     background: #000ba3;
+     background: #013880;
  }
 
 
@@ -893,7 +896,7 @@
  }
 
  .lifeBoxone {
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
  }
 
  .lifeBoxone figure {}
@@ -1043,12 +1046,14 @@
      /* BMW blue accent */
      margin-bottom: 15px;
      font-size: 1.3rem;
+     font-family: "Nunito Sans", sans-serif;
  }
 
  .footerBox p {
      color: #ccc;
      font-size: 0.95rem;
      line-height: 1.6;
+    font-family: "Nunito Sans", sans-serif;
  }
 
 
@@ -1073,6 +1078,7 @@
      /* BMW blue accent */
      margin-bottom: 15px;
      font-size: 1.3rem;
+     font-family: "Nunito Sans", sans-serif;
  }
 
  .footerBoxone ul {
@@ -1088,6 +1094,7 @@
      color: #ccc;
      text-decoration: none;
      transition: color 0.3s ease;
+    font-family: "Nunito Sans", sans-serif;
  }
 
 
@@ -1115,6 +1122,7 @@
      /* BMW blue accent */
      margin-bottom: 15px;
      font-size: 1.3rem;
+     font-family: "Nunito Sans", sans-serif;
  }
 
  .footerBoxtwo ul {
@@ -1130,6 +1138,7 @@
      color: #ccc;
      text-decoration: none;
      transition: color 0.3s ease;
+    font-family: "Nunito Sans", sans-serif;
  }
 
 
@@ -1158,6 +1167,7 @@
      /* BMW blue accent */
      margin-bottom: 15px;
      font-size: 1.3rem;
+     font-family: "Nunito Sans", sans-serif;
  }
 
  .footerBoxthree ul {
@@ -1173,6 +1183,7 @@
      color: #ccc;
      text-decoration: none;
      transition: color 0.3s ease;
+     
  }
 
 
@@ -1198,11 +1209,12 @@
  }
 
 
-
+ 
 
  .subscribeForm {
      display: flex;
      margin-top: 5px;
+    
  }
 
  .subscribeForm input {
@@ -1270,6 +1282,7 @@
             display: block;
             position: absolute;
             margin-left: 5rem;
+            color: #ffffff;
             /* top: 4rem;
                 right: 3rem; */
         }
@@ -1279,9 +1292,29 @@
             display: none;
             width: 100%;
             padding: 1rem;
-            
+            /* background-color: #00a2ff; */
+            list-style: none;
+           
         }
+
+    .navLinks li{
+        /* background-color: #012fff; */
+        background: linear-gradient(135deg, #00137d, #006faa);
+        border-radius: 5px;
+        padding: 2px 2px;
+        /* color: #00FFFF; */
+    }
+
+    .navLinks li a{
+        color: white;
+            text-decoration: none;
+            /* padding: 10px 15px; */
+            margin-left: 5px;
+            display: block;
+            transition: background 0.4s ease, color 0.4s ease;
+    }
     
+ 
     
         #iconToggle:checked~.navLinks {
             display: flex;
@@ -1524,8 +1557,8 @@
 
     .subscribeForm input, .subscribeForm button {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         border-radius: 20px;
-        padding: 7px 9px;
+        padding: 15px 20px;
     }
 }
